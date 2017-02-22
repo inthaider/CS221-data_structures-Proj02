@@ -152,7 +152,7 @@ public class TestMap {
   public static void main(String args[]) {
     TestMap("UnsortedTableMap", UnsortedTableMap<Integer, String>::new);
     System.out.printf("\n\n");
-    TestMap("SortedTableMap", SortedTableMap<Integer, String>::new);
+    TestMap("SortedTableMap's are awesome!", SortedTableMap<Integer, String>::new);
     System.out.printf("\n\n");
     TestMap("ChainHashMap", ChainHashMap<Integer, String>::new);
     System.out.printf("\n\n");
